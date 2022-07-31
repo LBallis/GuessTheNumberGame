@@ -4,25 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="575bd118-6f5b-459e-b7dc-6ff78bc020ce" name="Changes" comment="workspace.xml added">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/gr/ballis/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/gr/ballis/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/gr/ballis/GameImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/gr/ballis/NumberGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/gr/ballis/NumberGeneratorImpl.java" afterDir="false" />
+    <list default="true" id="575bd118-6f5b-459e-b7dc-6ff78bc020ce" name="Changes" comment="stage 3 + 4 completed">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console/src/main/java/gr/ballis/ConsoleNumberGuess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console/src/main/java/gr/ballis/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/gr/ballis/GuessCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/gr/ballis/MaxNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/gr/ballis/MessageGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/gr/ballis/MessageGeneratorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/gr/ballis/MinNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/gr/config/GameConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/config/game.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/gr/ballis/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/gr/ballis/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/gr/ballis/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/gr/ballis/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/gr/ballis/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/gr/ballis/GameImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/gr/ballis/GameImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/gr/ballis/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/gr/ballis/NumberGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/gr/ballis/NumberGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/gr/ballis/NumberGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/gr/ballis/NumberGeneratorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -40,21 +58,41 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "jbr-11",
+    "last_opened_file_path": "C:/MyWorkspace/training/SpringBoot5 - Udemy/GuessTheNumberGame",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4218391",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="gr.ballis" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MyWorkspace\training\SpringBoot5 - Udemy\GuessTheNumberGame\core\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gr.ballis" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="gr.ballis.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="gr.ballis.Main" />
-      <module name="core" />
+      <module name="console" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gr.ballis.*" />
+          <option name="PATTERN" value="gr.ballis.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,7 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.gr.ballis.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -77,6 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659168863448</updated>
       <workItem from="1659168866267" duration="6764000" />
+      <workItem from="1659199245365" duration="15442000" />
     </task>
     <task id="LOCAL-00001" summary="workspace.xml added">
       <created>1659171191178</created>
