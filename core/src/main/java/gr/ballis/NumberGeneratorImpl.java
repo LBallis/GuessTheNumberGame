@@ -16,7 +16,7 @@ public class NumberGeneratorImpl implements NumberGenerator{
     private final int minNumber;
 
     @Autowired
-    public NumberGeneratorImpl(@MaxNumber int maxNumber, @MinNumber int minNumber) {
+    public NumberGeneratorImpl( int maxNumber, int minNumber) {
         this.maxNumber = maxNumber;
         this.minNumber = minNumber;
     }
