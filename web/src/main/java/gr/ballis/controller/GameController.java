@@ -23,6 +23,11 @@ public class GameController {
         this.gameService = gameService;
     }
 
+    @GetMapping(GameMappings.HOME)
+    public String home(){
+        return ViewNames.HOME;
+    }
+
     @GetMapping(GameMappings.PLAY)
     public String play(Model model){
         model.addAttribute(AttributeNames.RESULT_MESSAGE, gameService.getResultMessage());
